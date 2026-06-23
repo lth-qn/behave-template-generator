@@ -9,10 +9,11 @@ An automated tool to parse Gherkin `.feature` testing structures and auto-constr
 ```text
 ├── features/
 │   ├── steps/
-│   │   └── hospital_monitor_steps.py  # Executable clinical step scenarios
-│   └── hospital_monitor.feature       # Patient monitor feature definition
-├── generate_steps.py                  # spaCy structural generation parser
-└── README.md                          # Documentation setup handbook
+│   │   └── hospital_monitor_steps.py        # Example clinical step scenarios
+│   ├── hospital_monitor.feature             # Patient monitor feature definition
+│   └── hospital_monitor_steps_template      # Clinical step scenarios template
+├── generate_steps.py                        # spaCy structural generation parser
+└── README.md                                # Documentation setup handbook
 ```
 
 ## Quick Start Configuration
